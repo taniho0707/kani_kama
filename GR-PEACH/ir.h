@@ -75,13 +75,3 @@ public:
 
 
 #endif
-
-
-
-
-
-    IR ir;
-    char data[3] = {5, 15, 5};
-    
-    blueled = 1;
-    ir.sendIR(data, 3);
